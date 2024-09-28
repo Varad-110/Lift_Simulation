@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Lift Simulation</title>
+    <script src="main.js" defer></script>
 </head>
 
 <body>
-    <div class="heading">Lift Simulation</div>
-    <div class="container">
-        <div class="input"><input type="text" placeholder="enter number of lifts"></div>
-        <div class="input"><input type="text" placeholder="enter number of floors"></div>
-        <button>generate</button>
+    <div class="user">
+        <div class="heading">Lift Simulation</div>
+        <div class="container">
+            <div class="input"><input type="text" id="no_lifts" placeholder="enter number of lifts"></div>
+            <div class="input"><input type="text" id="no_floors"placeholder="enter number of floors"></div>
+            <button id="generate_btn">generate</button>
+        </div>
     </div>
+    <div class="simulation" id="simulation">
+        <h1>this is simulation</h1>
+    </div>
+    
+    
      
 </body>
 
